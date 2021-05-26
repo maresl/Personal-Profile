@@ -13,13 +13,14 @@ import python from './images/python.jpeg'
 import jquery from './images/jQuery.png'
 import bootstrap from './images/bootstrap.png'
 import materialize from './images/materialize.png'
+import './Technologies.css'
 
 
 
-const Tecnologies = () => {
+const Technologies = () => {
     return(
-        <div>
-            <h1>Tecnologies</h1>
+        <div className="container">
+            <h1>Technologies</h1>
             <Container className='about-me' fluid>
                 <Row>
                     <Col xs={4} md={3}>
@@ -62,4 +63,4 @@ const Tecnologies = () => {
     )
 }
 
-export default Tecnologies
+export default Technologies
