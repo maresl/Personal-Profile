@@ -1,5 +1,5 @@
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./HeroImage.jpeg);
   height: 100vh;
   width: 100vw;
@@ -20,4 +20,14 @@
 
 ul {
   list-style-type: none;
+}
+
+.name {
+  color: #5bc0de;
+  font-weight: bold;
+  font-size: 75px;
+}
+h3 {
+  font-size: 40px;
+  font-weight: bold;
 }

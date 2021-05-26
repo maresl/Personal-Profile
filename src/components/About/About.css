@@ -1,8 +1,26 @@
 .about-me {
-  margin: 30px auto;
+  margin: 10px auto;
 }
 
 .desc-me {
-  padding: 50px;
+  padding: 20px;
+  margin: auto auto;
+}
+
+.about-me-title {
+  color: #5bc0de;
+  padding: 15px;
+}
+
+h4 {
+  color: #5bc0de;
+  padding: 15px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.img-me {
   margin: auto auto;
 }
