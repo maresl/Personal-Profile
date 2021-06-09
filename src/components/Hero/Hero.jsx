@@ -21,8 +21,9 @@ const Hero = () => {
                 <Alert show={show} variant="info">
                     <Alert.Heading>Contact Information</Alert.Heading>
                     <ul className="contact-info">
-                        <li>email: <a href="mailto:lmmares102@gmail.com">lmmares102@gmail.com</a></li>
-                        <li>mobile: 909-997-5204</li>
+                        <li>Email: <a href="mailto:lmmares102@gmail.com">lmmares102@gmail.com</a></li>
+                        <li>Mobile: 909-997-5204</li>
+                        <li>Location: Seattle, WA</li>
                     </ul>
                     <hr />
                     <div className="d-flex justify-content-end">
