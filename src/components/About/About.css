@@ -24,3 +24,8 @@ p {
 .img-me {
   margin: auto auto;
 }
+.bi {
+  width: 42px;
+  height: 42px;
+  margin: 10px;
+}
