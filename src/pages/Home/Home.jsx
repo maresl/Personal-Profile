@@ -14,6 +14,7 @@ const Home = () => {
             <Hero />
             <About />
             <div className="projects">
+                <h1>Projects</h1>
                 <Project 
                     title="FLEXipes: Recipes for Everyday Cooking" 
                     image={flexipes}

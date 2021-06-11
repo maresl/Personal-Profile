@@ -4,6 +4,9 @@ import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 
 const About = () => {
@@ -11,9 +14,9 @@ const About = () => {
         <Container className='about-me' fluid>
             <Row>
                 <Col className="img-me" md={12} lg={6}>
-                    <Image className="img" src={image} alt="me" fluid/>
+                    <Image className="img" src={image} alt="me" fluid data-aos="fade-right" data-aos-duration="3000"/>
                 </Col>
-                <Col className="desc-me" md={12} lg={6} fluid>
+                <Col className="desc-me" data-aos="fade-left" data-aos-duration="3000" md={12} lg={6} fluid >
                     <h1 className="about-me-title">About Me</h1>
                     
                     <p>
@@ -46,6 +49,7 @@ const About = () => {
                 </Col>
             </Row>
         </Container>
+        
     )
 }
 
