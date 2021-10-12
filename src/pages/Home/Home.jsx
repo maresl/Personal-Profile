@@ -9,36 +9,32 @@ import swipebrite from './images/SwipeBrite_pic2.jpeg'
 import foodie from './images/Foodie_pic.jpeg'
 
 const Home = () => {
-    return(
+    return (
         <div>
             <Hero />
             <About />
             <div className="projects">
                 <h1>Projects</h1>
-                <Project 
-                    title="FLEXipes: Recipes for Everyday Cooking" 
+                <Project
+                    title="FLEXipes: Recipes for Everyday Cooking"
                     image={flexipes}
                     desciption="Recipe recommendations based on the ingredients users already have at home"
-                    code="https://github.com/maresl/FLEXipes"
-                    demo="https://flexipes.herokuapp.com/"/>
-                <Project 
-                    title="SwipeBrite" 
+                    code="https://github.com/maresl/FLEXipes" />
+                <Project
+                    title="SwipeBrite"
                     image={swipebrite}
                     desciption="Search events near you and save them as Favorites"
-                    code="https://github.com/maresl/SwipeBrite"
-                    demo="https://swipebritefrontend.herokuapp.com/"/>
-                <Project 
-                    title="Foodie!" 
+                    code="https://github.com/maresl/SwipeBrite" />
+                <Project
+                    title="Foodie!"
                     image={foodie}
                     desciption="Social Media App that allows community sharing of food experience and photos"
-                    code="https://github.com/maresl/Foodie-github.io"
-                    demo="https://polar-lowlands-26830.herokuapp.com/home"/>
-                <Project 
-                    title="Chess" 
+                    code="https://github.com/maresl/Foodie-github.io" />
+                <Project
+                    title="Chess"
                     image={chess}
                     desciption="A beginners chess game"
-                    code="https://github.com/maresl/maresl.github.io"
-                    demo="https://maresl.github.io/"/>
+                    code="https://github.com/maresl/maresl.github.io" />
             </div>
             <Technologies />
         </div>
