@@ -7,12 +7,14 @@ import chess from './images/Chess_pic.png'
 import flexipes from './images/flexipes_pic.jpeg'
 import swipebrite from './images/SwipeBrite_pic2.jpeg'
 import foodie from './images/Foodie_pic.jpeg'
+import Links from '../../components/Links/Links'
 
 const Home = () => {
     return (
         <div>
             <Hero />
             <About />
+            <Links />
             <div className="projects">
                 <h1>Projects</h1>
                 <Project
