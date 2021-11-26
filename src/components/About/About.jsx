@@ -52,7 +52,7 @@ const About = () => {
                         </Carousel.Item>
                         <Carousel.Item>
                             <Image className="img"
-                                src='/images/AboutMe/Carousel1.jpg'
+                                src='/images/AboutMe/Carousel1_B.jpg'
                                 alt="slide"
                                 fluid data-aos="fade-right"
                                 data-aos-duration="3000" />
