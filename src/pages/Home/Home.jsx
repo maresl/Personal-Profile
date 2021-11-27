@@ -8,12 +8,14 @@ import flexipes from './images/flexipes_pic.jpeg'
 import swipebrite from './images/SwipeBrite_pic2.jpeg'
 import foodie from './images/Foodie_pic.jpeg'
 import Links from '../../components/Links/Links'
+import Skills from '../../components/Skills/Skills'
 
 const Home = () => {
     return (
         <div>
             <Hero />
             <About />
+            <Skills />
             <Links />
             <div className="projects">
                 <h1>Projects</h1>

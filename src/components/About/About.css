@@ -1,19 +1,4 @@
-div .row {
-  padding: 12.0rem 0;
-}
 
-.card{
-  border: 1px solid gray;
-  padding: 1.0rem;
-}
-
-.card:hover {
-  transform: scale(1.10) !important;
-  transition-duration: 0.5s !important;
-  overflow: hidden;
-  padding: 0.5rem;
-  overflow: hidden;
-}
 
 .desc-me {
   padding: 20px;
@@ -40,13 +25,4 @@ p {
   width: 42px;
   height: 42px;
   margin: 10px;
-}
-
-@media only screen and (max-width: 767px) {
-  .card{
-    margin-bottom: 4rem;
-  }
-  .links-container{
-    background-image: url('forrest3.jpg') !important;
-  }
 }

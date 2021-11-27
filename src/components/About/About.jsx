@@ -64,7 +64,7 @@ const About = () => {
 
                 </Col>
                 <Col className="desc-me" data-aos="fade-left" data-aos-duration="3000" md={12} lg={6} fluid >
-                    <h1 className="about-me-title">About Me</h1>
+                    <h1 className="about-me-title">Hi there!</h1>
 
                     <p>
                         I am Full-Stack Developer with a background in medical research and information technology committed to meeting rigorous industry standards through adaptability and creative problem solving. I am passionate about using process automation to make the world a better place.                    </p>
