@@ -2,8 +2,9 @@
   position: relative;
   margin: 0 0;
   background-color: white;
+  padding: 4rem;
 }
 
 .projects-title{
-  margin: 50px auto;
+  padding: 5rem auto;
 }
