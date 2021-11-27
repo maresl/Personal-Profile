@@ -1,4 +1,9 @@
 .projects {
   position: relative;
+  margin: 0 0;
+  background-color: white;
+}
+
+.projects-title{
   margin: 50px auto;
 }
