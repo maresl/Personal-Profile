@@ -1,5 +1,6 @@
-.about-me {
-  margin: 10px auto;
+.about-me{
+  background-color: white;
+  position:relative;
 }
 
 .desc-me {
@@ -8,12 +9,10 @@
 }
 
 .about-me-title {
-  color: #5bc0de;
   padding: 15px;
 }
 
 h4 {
-  color: #5bc0de;
   padding: 15px;
 }
 

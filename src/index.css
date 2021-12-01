@@ -1,6 +1,12 @@
 body {
-  margin: 0;
-  font-family: "Poppins", sans-serif !important;
+  margin: 0 0;
+  font-family: 'Playfair Display', serif !important;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.h1, h1 {
+  font-size: 3.0rem;
+  margin: 0 0;
 }

@@ -1,0 +1,27 @@
+div .skills-col{
+    padding-top: 2rem;
+    background-color: white;
+    
+}
+
+div .skills-container{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+
+}
+
+@media only screen and (max-width: 767px) {
+    div .skills-container{
+        margin: 0 ;
+        padding: 0;
+        position: relative;
+    }
+  
+    div .skills-col{
+        padding-top: 0 ;
+        padding-bottom: 12rem;
+
+    }
+  }

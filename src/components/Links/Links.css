@@ -1,0 +1,32 @@
+.links-container{
+    position: relative;
+}
+
+div .row {
+    padding: 12.0rem 0 !important;
+}
+
+.card{
+    border: 1px solid gray;
+    padding: 1.0rem;
+}
+
+.card:hover {
+    transform: scale(1.10) !important;
+    transition-duration: 0.5s !important;
+    overflow: hidden;
+    padding: 0.5rem;
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .card{
+        margin-bottom: 4rem;
+    }
+    .links-container{
+        background-image: url('forrest3.jpg') !important;
+        background-position: center;
+        background-size: cover;
+    }
+}
