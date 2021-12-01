@@ -14,7 +14,7 @@ const Links = () => {
             backgroundPosition: 'center',
         }}>
             <Container className='skills-container' fluid>
-                <Row className="justify-content-md-center">
+                <Row className="justify-content-md-center links-row">
                     <Col xs={{ span: 6, offset: 3 }} md={{ span: 3, offset: 0 }}>
                         <Card.Link href="https://github.com/maresl" target="_blank" rel="noreferrer" variant='dark'>
                             <Card text='dark' bsPrefix='card'>

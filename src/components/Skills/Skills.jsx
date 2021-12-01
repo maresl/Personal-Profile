@@ -1,18 +1,18 @@
-import Image from 'react-bootstrap/Image'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Carousel from 'react-bootstrap/Carousel'
 import './Skills.css'
+import Image from 'react-bootstrap/Image'
+import Col from 'react-bootstrap/Col'
+
 
 const Skills = () => {
     return (
-        <Container>
-            <Row>
-                <Col>
+        <div className='skills-container'>
+            <div className='skills-row'>
+                <Col xs={{ span: 12, offset: 0 }} md={{ span: 10, offset: 1 }} lg={{ span: 8, offset: 2 }} className='skills-col'>
+                    <h1 className='skills'>Skills</h1>
+                    <Image src='/images/Chart/Front End.png' fluid />
                 </Col>
-            </Row>
-        </Container>
+            </div>
+        </div>
     )
 }
 
