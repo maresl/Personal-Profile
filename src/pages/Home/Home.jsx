@@ -2,7 +2,6 @@ import './Home.css'
 import Project from '../../components/Project/Project'
 import Hero from '../../components/Hero/Hero'
 import About from '../../components/About/About'
-import Technologies from '../../components/Technologies/Technologies'
 import chess from './images/Chess_pic.png'
 import flexipes from './images/flexipes_pic.jpeg'
 import swipebrite from './images/SwipeBrite_pic2.jpeg'
@@ -40,7 +39,6 @@ const Home = () => {
                     desciption="A beginners chess game"
                     code="https://github.com/maresl/maresl.github.io" />
             </div>
-            <Technologies />
         </div>
     )
 }
