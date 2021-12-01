@@ -66,12 +66,9 @@ const About = () => {
                             My definition of fun is: running outdoors (despite Seattle's perpetual drizzle), hiking, reading murder mysteries, and shopping for cute mugs
                         </p>
                         <p>
-                            Also, check out my blog!
+                            I'm also a proud dog mama!
                         </p>
 
-                        {/* <h4>
-                        SKILLS: MERN stack (MongoDB, Express, React, Node. js), Object Oriented Programming, Restful API's, Model-View-Controller Framework
-                    </h4> */}
                     </Col>
                 </Row>
             </Container>

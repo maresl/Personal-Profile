@@ -13,9 +13,9 @@ const Links = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
         }}>
-            <Container className='skills-container' fluid>
+            <Container className='links-container' fluid>
                 <Row className="justify-content-md-center links-row">
-                    <Col xs={{ span: 6, offset: 3 }} md={{ span: 3, offset: 0 }}>
+                    <Col xs={{ span: 4, offset: 4 }} md={{ span: 3, offset: 0 }}>
                         <Card.Link href="https://github.com/maresl" target="_blank" rel="noreferrer" variant='dark'>
                             <Card text='dark' bsPrefix='card'>
                                 <Card.Img variant="top" src="/images/Links/github.png" fluid />
@@ -27,7 +27,7 @@ const Links = () => {
                             </Card>
                         </Card.Link>
                     </Col>
-                    <Col xs={{ span: 6, offset: 3 }} md={{ span: 3, offset: 0 }}>
+                    <Col xs={{ span: 4, offset: 4 }} md={{ span: 3, offset: 0 }}>
                         <Card.Link href="https://drive.google.com/file/d/1aQhIPmkQ0gxGBr-CTedw2d8Ze5dnKTC3/view?usp=sharing" target="_blank" rel="noreferrer">
                             <Card text='dark'>
                                 <Card.Img variant="top" src="/images/Links/Resume.png" fluid />
@@ -39,7 +39,7 @@ const Links = () => {
                             </Card>
                         </Card.Link>
                     </Col>
-                    <Col xs={{ span: 6, offset: 3 }} md={{ span: 3, offset: 0 }}>
+                    <Col xs={{ span: 4, offset: 4 }} md={{ span: 3, offset: 0 }}>
                         <Card.Link href="https://www.linkedin.com/in/leslie-mares/" target="_blank" rel="noreferrer">
                             <Card text='dark'>
                                 <Card.Img variant="top" src="/images/Links/Linkedin.png" fluid />

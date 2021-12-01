@@ -26,5 +26,7 @@ div .row {
     }
     .links-container{
         background-image: url('forrest3.jpg') !important;
+        background-position: center;
+        background-size: cover;
     }
 }
